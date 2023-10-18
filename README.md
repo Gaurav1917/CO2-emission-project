@@ -27,4 +27,16 @@
               2)Test data-
                   r2_score-0.993622
                   mean_absolute_error - 5.131
-             At last we tune the hyperparameter for more better results.     
+             At last we tune the hyperparameter for more better results.  
+4).Drive link to download a large files: https://drive.google.com/drive/folders/1RN47O8SqxFfqkGZJS6kpb6GohR6ktdhQ?usp=sharing
+
+5).Sample 1:
+
+![Screenshot (10)](https://github.com/Gaurav1917/CO2-emission-project/assets/146158309/be626210-a677-4559-8217-084bb26d703e)
+
+6).Sample 2:
+
+![Screenshot (11)](https://github.com/Gaurav1917/CO2-emission-project/assets/146158309/6e2aa902-5be0-4f7a-9223-04a0f0d9a568)
+
+             
+             
