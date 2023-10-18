@@ -1,4 +1,19 @@
-#)goggle colab
-#)Python
-#)VGG16 model
-#)Gradio for deployment
+!pip install gradio
+
+import gradio as gr
+import numpy as np
+
+def predict_co2_emissions(Country,Energy_type,Year,Energy_production,GDP,Energy_intensity_per_capita,Energy_intensity_by_GDP):
+  input_array = np.array([[Country,Energy_type,Year,Energy_production,GDP,Energy_intensity_per_capita,Energy_intensity_by_GDP]])
+  pred_score = loaded_model.predict(input_array.reshape(-1,1))
+  return np.round(pred_score[0],2)
+Country = gr.inputs.Slider(minimum=0,maximum=230,default=115,label='Country')
+Energy_type = gr.inputs.Slider(minimum=0,maximum=5,default=2,label='Energy_type')
+Year = gr.inputs.Slider(minimum=1980,maximum=2019,default=1999,label='Year')
+Energy_production= gr.inputs.Slider(minimum=-1.000000e-39,maximum=6.115090e+02,default=0,label='Energy_production')
+GDP= gr.inputs.Slider(minimum=0.124958,maximum=127691,default=3,label='GDP')
+Energy_intensity_per_capita= gr.inputs.Slider(minimum=0,maximum=1140,default=68,label='Energy_intensity_per_capita')
+Energy_intensity_by_GDP= gr.inputs.Slider(minimum=0,maximum=167,default=4,label='Energy_intensity_by_GDP')
+op = gr.outputs.Textbox(label='predicted_score')
+gr.Interface(fn=predict_co2_emissions,inputs=[Country,Energy_type,Year,Energy_production,GDP,Energy_intensity_per_capita,Energy_intensity_by_GDP],outputs=op,live=True).launch(debug=True)
+
