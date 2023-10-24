@@ -29,17 +29,19 @@
                   mean_absolute_error - 5.131
              At last we tune the hyperparameter for more better results.  
 
-4). The Aim of our study is to answer the below research questions:
+## The Aim of our study is to answer the below research questions:
 
-         a) How CO2 emission changes with Year?.
-         b) Does GDP and Population affect CO2 emission?.
-         c) How energy consumption related to CO2 emission?.
-         d) Which energy type has more CO2 emission?.
-         e) Which energy type consume and produce more Energy?.
-         f) How energy consumption varies with Year?.
-         g) How GDP affect Energy consumption?.
+#### a) How CO2 emission changes with Year?.
+#### b) Does GDP and Population affect CO2 emission?.
+#### c) How energy consumption related to CO2 emission?.
+#### d) Which energy type has more CO2 emission?.
+#### e) Which energy type consume and produce more Energy?.
+#### f) How energy consumption varies with Year?.
+#### g) How GDP affect Energy consumption?.
 
- a) How CO2 emission changes with Year?.
+
+
+### a) How CO2 emission changes with Year?.
 
  ![download (12)](https://github.com/Gaurav1917/CO2-emission-project/assets/146158309/d161d01e-ce96-44d1-aca9-3fd5f4866bb7)
  
@@ -53,7 +55,7 @@
             #) If we ignore the variation given above, the trend in graph is almost linearly i.e CO2 emission increases with year.
 
 
-b) Does GDP and Population affect CO2 emission?.
+### b) Does GDP and Population affect CO2 emission?.
 
 ![download (2)](https://github.com/Gaurav1917/CO2-emission-project/assets/146158309/27d7e1a3-caf0-4011-93bf-25668e145d86)
 
@@ -74,7 +76,7 @@ GDP and Population affect CO2 emission:
                       After Third peak the CO2 emission varies almost linearly(increases with population) with population.
 
 
-c) How energy consumption related to CO2 emission?.  
+### c) How energy consumption related to CO2 emission?.  
 
 ![download (1)](https://github.com/Gaurav1917/CO2-emission-project/assets/146158309/ab0c51c0-353f-4a0c-8655-eac094527038)
 
@@ -85,7 +87,7 @@ Energy consumption related to CO2 emission:
          #) If country consumes more energy than also the country emmit more CO2.
 
 
-d) Which energy type has more CO2 emission?.
+### d) Which energy type has more CO2 emission?.
 
 ![download](https://github.com/Gaurav1917/CO2-emission-project/assets/146158309/2f81af9b-6ce0-4314-af30-29b0772893b2)
 
@@ -98,7 +100,7 @@ From Bar plot:
 
           
                  
-e) Which energy type consume and produce more Energy?.
+### e) Which energy type consume and produce more Energy?.
 
 ![download (4)](https://github.com/Gaurav1917/CO2-emission-project/assets/146158309/cd6c5e59-27ce-4111-9ed8-72a70cdbf575)
 
@@ -112,7 +114,7 @@ Energy consumption and Production.
      (Petroleum > Nuclear > Coal > Natural gas > Renewables)
      
 
-f) How energy consumption varies with Year?.    
+### f) How energy consumption varies with Year?.    
 
 ![download (6)](https://github.com/Gaurav1917/CO2-emission-project/assets/146158309/af1f224a-9cab-421e-a927-a374fea25ae1)
 
@@ -127,7 +129,7 @@ Energy Consumption Varies with Year.
       b) 1995-2009
       c) 2010-2019
 
- g) How GDP affect Energy consumption?.   
+### g) How GDP affect Energy consumption?.   
 
  ![download (7)](https://github.com/Gaurav1917/CO2-emission-project/assets/146158309/fa0a700c-d521-4f48-b6b4-019f41e17091)
 
@@ -137,13 +139,13 @@ Energy Consumption Varies with Year.
 
 
 
-5).Drive link to download a large files: https://drive.google.com/drive/folders/1RN47O8SqxFfqkGZJS6kpb6GohR6ktdhQ?usp=sharing
+## 5).Drive link to download a large files: https://drive.google.com/drive/folders/1RN47O8SqxFfqkGZJS6kpb6GohR6ktdhQ?usp=sharing
 
-6).Sample 1:
+## 6).Sample 1:
 
 ![Screenshot (10)](https://github.com/Gaurav1917/CO2-emission-project/assets/146158309/be626210-a677-4559-8217-084bb26d703e)
 
-7).Sample 2:
+## 7).Sample 2:
 
 ![Screenshot (11)](https://github.com/Gaurav1917/CO2-emission-project/assets/146158309/6e2aa902-5be0-4f7a-9223-04a0f0d9a568)
 
